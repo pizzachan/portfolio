@@ -1,0 +1,164 @@
+html, body {
+	max-width: 100%;
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
+}
+#firstPage{
+	background: url(../fitness_bg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: #cfcfcf;   /* <------ */
+}
+
+#firstPage .overlay{
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.8)), color-stop(17%,rgba(0,0,0,0.73)), color-stop(35%,rgba(0,0,0,0.66)), color-stop(62%,rgba(0,0,0,0.55)), color-stop(100%,rgba(0,0,0,0.4))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#66000000',GradientType=0 ); /* IE6-9 */
+	height:100vh;
+}
+
+#introPage{
+	padding: 80px 0;
+}
+
+#secondIntroPage{
+	padding: 80px 0;
+}
+
+
+#thirdPage{
+	background: url(../fitness_bg4.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: #ffffff;
+}
+#thirdPage .overlay{
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.8)), color-stop(17%,rgba(0,0,0,0.73)), color-stop(35%,rgba(0,0,0,0.66)), color-stop(62%,rgba(0,0,0,0.55)), color-stop(100%,rgba(0,0,0,0.4))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#66000000',GradientType=0 ); /* IE6-9 */
+	height: 100vh;
+	background-attachment: fixed;
+}
+
+#secondPage{
+	background: url(../HaEVQpZ.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: #ffffff;
+	padding: 80px 0;
+}
+#secondPage .overlay{
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.8)), color-stop(17%,rgba(0,0,0,0.73)), color-stop(35%,rgba(0,0,0,0.66)), color-stop(62%,rgba(0,0,0,0.55)), color-stop(100%,rgba(0,0,0,0.4))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#66000000',GradientType=0 ); /* IE6-9 */
+	height: 100vh;
+	background-attachment: fixed;
+}
+
+/* Navigation */
+#tf-menu {
+	padding: 20px;
+	transition: all 0.8s;
+}
+#tf-menu.navbar-default {
+	background-color: rgba(8, 8, 8, 0);
+	border-color: rgba(231, 231, 231, 0);
+}
+#tf-menu a.navbar-brand {
+text-transform: uppercase;
+font-size: 22px;
+color: #fff;
+font-weight: 900;
+}
+
+#tf-menu.navbar-default .navbar-nav > li > a {
+	text-transform: uppercase;
+	color: #FFF;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+.on {
+	background-color: #222222 !important;
+	padding: 0 !important;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+	color: #FCAC45 !important;
+	background-color: transparent;
+	font-weight: 700;
+}
+
+.navbar-toggle {
+	border-radius: 0;
+	}
+.navbar-default .navbar-toggle:hover, 
+.navbar-default .navbar-toggle:focus {
+	background-color: #FCAC45;
+	border-color: #FCAC45;
+	}
+.navbar-default .navbar-toggle:hover>.icon-bar {
+	background-color: #FFF;
+	}
+.tTitle{
+	color: rgba(255, 255, 255, 0.1) !important;
+}
+.oTitle{
+	 color:#FFF;
+}
+
+
+
+
+
+	#title{
+		font-size:100px;
+	}
+	#title2{
+		font-size:200px; LINE-HEIGHT:100px;
+	}
+	#title3{
+		font-size:64px;color:#000;
+	}
+	
+@media all and ( max-width: 1200px ) and (min-width:768px){
+	.loginbox{
+		max-width:375px;
+		width: auto;
+		height: 80vh; 
+	}
+	
+}
+
+@media all and ( max-width:767px){
+	#title{
+		font-size:12vw;color:#FFF;
+	}
+	#title2{
+		font-size:24vw; LINE-HEIGHT:12vw; color:#FFF;
+	}
+	#title3{
+		
+		font-size:7.68vw;
+		color:#000;
+	}
+}
